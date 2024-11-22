@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Threat Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Insider Threat Detection System</h1>
+        </header>
+        <main>
+            <section class="threats">
+                <h2>Detected Threats</h2>
+                <ul id="threat-list">
+                    {% for threat in threats %}
+                        <li>{{ threat }}</li>
+                    {% else %}
+                        <li>No threats detected</li>
+                    {% endfor %}
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Insider Threat Detection</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

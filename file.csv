@@ -1,0 +1,6 @@
+username,filename,timestamp
+user1,confidential.txt,2024-07-15 08:00:00
+user2,public.txt,2024-07-15 09:00:00
+user1,secret_data.csv,2024-07-15 10:00:00
+...
+

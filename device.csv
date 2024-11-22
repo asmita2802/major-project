@@ -1,0 +1,5 @@
+username,device_id,timestamp
+user1,device1,2024-07-15 08:00:00
+user2,device2,2024-07-15 09:00:00
+user1,device3,2024-07-15 10:00:00
+...

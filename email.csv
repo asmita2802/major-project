@@ -1,0 +1,5 @@
+username,sender,subject,timestamp
+user1,sender@example.com,Urgent: Action Required,2024-07-15 08:00:00
+user2,spam@example.com,Special Offer,2024-07-15 09:00:00
+user1,friend@example.com,Hello!,2024-07-15 10:00:00
+...
